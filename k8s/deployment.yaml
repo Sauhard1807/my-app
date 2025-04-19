@@ -16,4 +16,4 @@ spec:
       - name: react-app
         image: sauhardgupta/frontend:v2
         ports:
-        - containerPort: 80
+        - containerPort: 3000
