@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: sauhardgupta/frontend:v2
+        image: sauhardgupta/frontend:v3
         ports:
         - containerPort: 3000
