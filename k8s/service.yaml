@@ -3,9 +3,10 @@ kind: Service
 metadata:
   name: react-app-service
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: react-app
   ports:
     - port: 80
       targetPort: 3000
+      nodePort: 30464   # Optional: you can specify or let Kubernetes assign one automatically (range: 30000–32767)
